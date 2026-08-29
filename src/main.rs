@@ -12,6 +12,8 @@ use winit::{
     window::{Window, WindowBuilder},
 };
 
+//Yea I added excessive comments cause this is mostly a learning project from a toturial I followed
+
 struct State<'window> {
     //Surface/Area of the drawing pallet
     surface: wgpu::Surface<'window>,
